@@ -1,20 +1,29 @@
 {
-  "name": "html-samples",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
   "author": "Nunifuchisaka",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "prod": "webpack --mode=production"
+  },
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "browser-sync": "^2.26.14",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-notify": "^4.0.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^3.0.2",
-    "npm-check-updates": "^11.6.0"
+    "autoprefixer": "^10.4.2",
+    "browser-sync": "^2.27.9",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "browsersync-ssi": "^0.2.4",
+    "css-loader": "^6.6.0",
+    "ejs-plain-loader": "^1.4.1",
+    "glob": "^10.3.10",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.5.3",
+    "postcss-loader": "^6.2.1",
+    "postcss-sort-media-queries": "^4.2.1",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.3",
+    "template-ejs-loader": "^0.9.4",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-remove-empty-scripts": "^0.8.0"
   }
 }

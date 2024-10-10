@@ -1,0 +1,35 @@
+@use "../tool/variable" as *;
+
+html {
+  height: 100%;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: subpixel-antialiased; //antialiased;
+  height: 100%;
+  font: 14px/1.4 $gothic;
+}
+
+hr {
+  display: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  
+  &:hover {
+    
+  }
+}
+
+strong {
+  
+}
+
+em {
+  
+}
